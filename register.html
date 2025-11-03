@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Healthcare System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.jpeg">
+</head>
+<body>
+    <header>
+        <h1>Create Account</h1>
+        <nav>
+            <a href="register.html">Register</a>
+            <a href="index.html">Home</a>
+            <button id="themeToggle">🌙 Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <form id="registerForm">
+            <label for="regName">Full Name:</label>
+            <input type="text" id="regName" required>
+
+            <label for="regEmail">Email:</label>
+            <input type="email" id="regEmail" required>
+
+            <label for="regPassword">Password:</label>
+            <input type="password" id="regPassword" required minlength="4">
+
+            <button type="submit">Register</button>
+        </form>
+        <p class="note">Already have an account? <a href="index.html">Go to Home</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Healthcare System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

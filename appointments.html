@@ -1,0 +1,57 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.jpeg">
+</head>
+<body>
+   <header>
+    <h1>Healthcare Appointment System</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="appointments.html">Book Appointment</a>
+        <a href="view.html">View Appointments</a>
+        <button id="themeToggle">🌙 Dark Mode</button>
+    </nav>
+</header>
+
+
+    <main>
+        <form id="appointmentForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" required>
+
+            <label for="doctor">Select Doctor:</label>
+            <select id="doctor" required>
+                <option value="">--Choose Doctor--</option>
+                <option value="Dr. Smith">Dr. Smith</option>
+                <option value="Dr. Johnson">Dr. Johnson</option>
+                <option value="Dr. Williams">Dr. Williams</option>
+            </select>
+
+            <label for="date">Appointment Date:</label>
+            <input type="date" id="date" required>
+
+            <label for="time">Appointment Time:</label>
+            <input type="time" id="time" required>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Healthcare System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
